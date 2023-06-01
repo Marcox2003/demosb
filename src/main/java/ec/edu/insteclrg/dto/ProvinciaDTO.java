@@ -1,6 +1,5 @@
 package ec.edu.insteclrg.dto;
 
-import jakarta.persistence.Column;
 import lombok.Data;
 
 @Data
@@ -10,5 +9,6 @@ public class ProvinciaDTO {
 	
 	private String nombre;
 	
+	private PaisDTO pais;
 
 }
